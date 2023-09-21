@@ -11,3 +11,11 @@ The results will be large so make sure to return a string.
 
 
 // Solution
+
+function biggest(numbers) {
+  return numbers
+    .map(String)
+    .sort((a, b) => (b + a) - (a + b))
+    .join``
+    .replace(/^0+/, "0");
+}
