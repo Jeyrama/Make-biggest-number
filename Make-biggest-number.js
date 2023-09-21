@@ -19,3 +19,5 @@ function biggest(numbers) {
     .join``
     .replace(/^0+/, "0");
 }
+
+// or
